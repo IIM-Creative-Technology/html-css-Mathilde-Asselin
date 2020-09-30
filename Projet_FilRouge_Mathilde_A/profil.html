@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Projet Fil Rouge</title>
+
+	<!-- - - - - - - - Informations - - - - - - - -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Mathilde Asselin">
+	<meta name="description" content="Page d'acceuil et présentation des sondages">
+	<meta name="keywords" content="Projet, IIM, Presentation, Sondage, EmissionTV">
+
+	<!-- - - - - - - - Css code - - - - - - - -->
+
+	<link rel="stylesheet" type="text/css" href="asset/style.css">
+
+	<!-- - - - - - - - Favicon - - - - - - - -->
+
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+	<!-- - - - - - - - Apparition des Icons - - - - - - - -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+</head>
+
+<body>
+
+	<!-- - - - - - - - Barre de navigation - - - - - - - -->
+
+	<header>
+		<div id="nav">
+
+		<div id="logo">
+		 <img src="img/logo.png">
+		</div>
+
+		<div id="url">
+		 <a href="index.html">Acceuil |</a>
+		 <a href="classement.html">| Classement</a>
+		</div>
+
+		<div id="Icon">
+		 <i class="fas fa-user-circle"></i>
+		</div>
+
+	 	</div>
+	</header>
+
+
+	<!-- - - - - - - - Formulaire d'inscription - - - - - - - -->
+
+	<div id="cont">
+
+			<br><h1>Formulaire d'inscription :</h1>
+	      <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+	         <table class="form-style">
+	            <tr>
+	               <td>
+	                  <label>
+	                     Votre nom <span class="required">*</span>
+	                  </label>
+	               </td>
+	               <td>
+	                  <input type="text" name="name" class="long"/>
+	                  <span class="error" id="errorname"></span>
+	               </td>
+	            </tr>
+	            <tr>
+	               <td>
+	                  <label>
+	                     Votre prénom <span class="required">*</span>
+	                  </label>
+	               </td>
+	               <td>
+	                  <input type="text" name="prénom" class="long"/>
+	                  <span class="error" id="errorprenom"></span>
+	               </td>
+	            </tr>
+	            <tr>
+	               <td>
+	                  <label>
+	                     Votre adresse e-mail <span class="required">*</span>
+	                  </label>
+	               </td>
+	               <td>
+	                  <input type="email" name="email" class="long"/>
+	                  <span class="error" id="erroremail"></span>
+	               </td>
+	            </tr>
+	            <tr>
+	               <td>
+	                  <label>
+	                     Message <span class="required">*</span>
+	                  </label>
+	               </td>
+	               <td>
+	                  <textarea name="message" class="long field-textarea"></textarea>
+	                  <span class="error" id="errormsg"></span>
+	               </td>
+	            </tr>
+	            <tr>
+	               <td></td>
+	               <td>
+	                  <input type="submit" value="Envoyer">      
+	                  <input type="reset" value="Réinitialiser"> 
+	               </td>
+	            </tr>
+	         </table>
+	      </form>
+
+	</div>
