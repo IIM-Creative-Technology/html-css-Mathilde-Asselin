@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Sondage</title>
+
+  <!-- - - - - - - - Informations - - - - - - - -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Mathilde Asselin">
+  <meta name="description" content="Page d'acceuil et présentation des sondages">
+  <meta name="keywords" content="Projet, IIM, Presentation, Sondage, EmissionTV">
+
+  <!-- - - - - - - - Css code - - - - - - - -->
+
+  <link rel="stylesheet" type="text/css" href="asset/style.css">
+
+  <!-- - - - - - - - Favicon - - - - - - - -->
+
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+  <!-- - - - - - - - Apparition des Icons - - - - - - - -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- - - - - - - - Animation en Css - - - - - - - -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- - - - - - - - Pop-Up - - - - - - - -->
+
+  <div id="Pop-Up">
+    
+    <div id="Pop">
+      
+      <label for="prenom">Veuillez indiquez votre prénom afin d'accéder au sondage</label>
+
+      <input type="text" placeholder="ex: Mathilde" name="prenom" id="prenom" maxlength="20">
+
+      <a id="Valider">Valider</a>
+
+    </div>
+
+  </div>
+
+  <main id="MainSondage">
+
+    <br><h3>Bienvenue <span></span> !</h3>
+
+    <!-- - - - - - - - Sondage - - - - - - - -->
+
+    <div id="Sond">
+
+    <h1>Sondage sur les Marseillais vs le Reste du Monde</h1>
+
+    <div class="quiz-container">
+
+    <div id="quiz"></div>
+
+    </div>
+
+    <button id="previous">Précédent</button>
+
+    <button id="next">Suivant</button>
+
+    <button id="submit">Envoyer</button>
+
+    <div id="results"></div>
+
+    </div>
+
+  </main> 
+
+
+    <!-- - - - - - - - Sondage - - - - - - - -->
+
+
+  <script type="text/javascript" src="asset/Script.js"></script>
+
+</body>
+
+</html>
