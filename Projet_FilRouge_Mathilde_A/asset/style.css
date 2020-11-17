@@ -1,0 +1,845 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-weight: normal;
+	text-align: center;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - Index.html - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - Navigation menu - - - - - - */
+
+
+#nav{
+	height: 150px;
+	width: 100%;
+}
+
+#nav div{
+	width: 30%;
+	height: 70px;
+	margin: 10px;
+	float: left;
+}
+
+#nav #logo{
+	text-align: initial;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#nav a{
+	margin: 15px;
+    font-size: 20px;
+    color: black
+}
+
+#nav #url{
+	padding-top: 20px;
+}
+
+#nav #Icon{
+	padding-top: 20px;
+}
+
+#Icon i{
+	font-size: 35px;
+	color: #055998;
+}
+
+#Icon, #url{
+	display: grid;
+}
+
+#Icon a{
+	text-align: end;
+}
+
+#url a{
+	text-align: center;
+}
+
+
+/* - - - - - - Emission à l'affiche - - - - - - */
+
+#affiche{
+	height: 400px;
+}
+
+
+#image{
+	height: 200px;
+	width: 100%;
+	background-color: #e8f0f1;
+}
+
+#image img{
+	height: 200px;
+	margin: 50px 20px 0 20px;
+	border: 0.8rem solid white;
+}
+
+
+/* - - - - - - Indication sur Könnun - - - - - - */
+
+#Indication{
+	height: 200px;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+#Indication div{
+	float: left;
+	width: 20%;
+    margin: 4% 2% 0 2%;
+}
+
+#Indication i{
+	font-size: 35px;
+	color: #055998;
+	margin-bottom: 15px;
+}
+
+#Indication h2{
+	font-size: 20px;
+}
+
+
+/* - - - - - - Sondage populaire - - - - - - */
+
+#SondPop{
+	height: 900px;
+}
+
+#populaire{
+	width: 100%;
+	height: 180px;
+	text-align: initial;
+}
+
+#populaire img{
+	margin: 5% 0 0 15%;
+}
+
+
+#ligneUne img{
+	height: 300px;
+	width: 220px;
+	margin: 1% 1%;
+}
+
+#LigneDeux img{
+	height: 300px;
+	width: 220px;
+	margin: 1% 1%;
+}
+
+
+/* - - - - - - Description - - - - - - */
+
+#description{
+	height: 350px;
+	background-color: #e8f0f1;
+
+}
+
+#description div{
+	float: left;
+}
+
+#marque{
+	width: 40%;
+	margin-top: 100px;
+}
+
+#marque img{
+	height: 150px;
+}
+
+#descrip{
+	width: 50%;
+}
+
+#descrip h1{
+	margin-top: 80px;
+	text-align: justify;
+}
+
+#descrip p{
+	text-align: justify;
+	margin-top: 30px;
+}
+
+
+/* - - - - - - Footer - - - - - - */
+
+
+#footer{
+	height: 200px;
+	text-align: center;
+}
+
+#footer div{
+	float: left;
+	height: 180px;
+	width: 30%;
+	margin-top: 60px;
+}
+
+#footer i{
+	font-size: 25px;
+	color: #055998;
+	margin-bottom: 15px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - profil.html - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+#cont{
+	margin-top: 10px;
+	background-color: #e8f0f1;
+	height: 550px;
+}
+
+.form-style {
+  margin:10px auto;
+  width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style td {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+
+.form-style label{
+  margin:0 0 3px 0;
+  padding:0px;
+  display:block;
+  font-weight: bold;
+}
+
+.form-style .required{
+  color:green;
+}
+
+.form-style input[type=submit], .form-style input[type=reset]{
+  background: #055998;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+}
+
+.form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+  background: #4eb5f1;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+
+.form-style .field-textarea{
+  height: 100px;
+}
+
+.form-style input[type=text], 
+.form-style input[type=email],
+textarea{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border:1px solid #BEBEBE;
+  padding: 7px;
+  margin:0px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;  
+}
+
+.form-style .long{
+  width: 100%;
+}
+
+.form-style input[type=text]:focus, 
+.form-style input[type=email]:focus,
+.form-style textarea:focus{
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9;
+}
+
+.error{
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - classment.html - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#tableau{
+ height: 650px;
+ background-color:  #e8f0f1;
+ text-align: center;
+}
+
+#classement h1{
+	color: #055998;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+#classement #class_1, #class_2, #class_3 {
+	border-radius: 0 20px 20px 0;
+	background-color: white;
+	height: 100px;
+    width: 50%;
+	margin: 15px;
+    display: inline-block;
+}
+
+#classement img{
+	height: 70px;
+    display: list-item;
+    margin: inherit;
+}
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - MVSRDM.html - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+/* - - - - - - Image - - - - - - */
+
+#afficheGlob{
+	height: 630px;
+}
+
+#imageGlob{
+	height: 450px;
+	background-color: #e8f0f1;
+}
+
+#imageGlob img{
+	height: 450px;
+	margin: 50px 20px 0 20px;
+	border: 1.2rem solid white;
+}
+
+/* - - - - - - Description - - - - - - */
+
+#descriptionGlob{
+	height: 280px;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+#descriptionGlob div{
+	float: left;
+}
+
+#descriptionMVSRDM{
+	margin-left: 60px;
+	width: 50%
+}
+
+#descriptionMVSRDM h2{
+	text-align: justify;
+	margin-top: 55px;
+	margin-left: 130px;
+	color: #055998;
+	font-size: 25px;
+}
+
+#descriptionMVSRDM p{
+	text-align: justify;
+	margin-top: 15px;
+	margin-left: 130px;
+}
+
+#coupe{
+	width: 30%;
+}
+
+#coupe img{
+	height: 150px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+
+/* - - - - - - Equipe - - - - - - */
+
+#equipe{
+	height: 600px;
+}
+
+#equipe img{
+	height: 420px;
+	margin-top: 50px;
+	width: 800px;
+}
+
+
+
+/* - - - - - - Sondage - - - - - - */
+
+#Sondage{
+	height: 300px;
+	background-color: #e8f0f1;
+}
+
+#Sondage div{
+	float: left;
+}
+
+#imgform{
+	width: 50%;
+}
+
+#imgform img{
+	height: 200px;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+
+#formul{
+	width: 50%;
+}
+
+#formul h2{
+	text-align: justify;
+    margin: 55px 0 15px 50px;
+	color: #055998;
+	font-size: 30px;
+}
+
+#formul h3{
+	text-align: initial;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+#formul p{
+	float: left;
+	margin-left: 40px;
+}
+
+#formul a{
+	float: left;
+	margin-left: 40px;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - Sondage.html - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - Pop-Up - - - - - - */
+
+#mainSondage{
+	visibility: hidden;
+}
+
+#Pop-Up{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e8f0f1;
+}
+
+
+#Pop{
+	width: 500px;
+	height: 300px;
+	padding: 16px;
+	border-radius: 6px;
+	border: thick double #055998;
+	background-color: white;
+	text-align: center;
+}
+
+#Pop label{
+	display: block;
+	font-size: 24px;
+	margin-top: 30px;
+	color: #055998;
+}
+
+#Pop input{
+	width: 50%;
+	display: block;
+	padding: 16px;
+	margin: 40px auto;
+	border-radius: 6px;
+}
+
+#Pop a{
+	text-decoration: none;
+	color: white;
+	background-color: #055998;
+	border-radius: 6px;
+	padding: 12px;
+	cursor: pointer;
+}
+
+
+/* - - - - - - Sondage - - - - - - */
+
+#MainSondage{
+	background-color: #e8f0f1;
+    height: 842px;
+}
+
+#MainSondage h3{
+	height: 50px;
+    font-size: 28px;
+}
+
+#Sond{
+	border: thick double #055998;
+   	width: 80%;
+   	margin: auto;
+   	background-color: white; 
+}
+
+#Sond h1{
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 26px;
+  color: black;
+}
+
+.question{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+#Sond button{
+  font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+    background-color: #055998;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 16px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+#Sond button:hover{
+	background-color: #38a;
+}
+
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - Responsive - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+@media only screen and (max-width: 1180px){
+
+	/* - - - - - - Index - - - - - - */
+
+#image img{
+	height: 120px;
+}
+
+#ligneUne img{
+	height: 250px;
+    width: 180px;
+}
+
+#LigneDeux img{
+	height: 250px;
+    width: 180px;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+
+/* - - - - - - Nav - - - - - - */
+
+#nav{
+	height: 280px;
+}
+
+#nav div{
+	width: 100%;
+	height: 50px;
+}
+
+#nav #logo {
+	text-align: center;
+}
+
+#nav #Icon, #url {
+    display: flex;
+}
+
+#nav #Icon {
+	padding-top: 2px;
+}
+
+#Icon a{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#nav #url{
+	display: grid;
+	padding-top: 0px;
+	height: 100px;
+}
+
+
+
+/* - - - - - - Index - - - - - - */
+
+#image img{
+	height: 180px;
+}
+
+#affiche{
+	height: 600px;
+}
+
+#image{
+	height: 450px;
+}
+
+/* - - - - - - - */
+
+#ligneUne img{
+	height: 260px;
+    width: 200px;
+}
+
+#LigneDeux img{
+	height: 260px;
+    width: 200px;
+}
+
+#SondPop {
+    height: 1350px;
+}
+
+#afficheGlob {
+	height: 430px;
+}
+
+#imageGlob{
+	height: 250px;
+}
+
+#imageGlob img {
+	height: 250px;
+}
+
+#descriptionGlob {
+    height: 530px;
+   	width: 100%;
+}
+
+#descriptionGlob div{
+	width: 100%;
+	margin-left: 10px;
+}
+
+#descriptionGlob h2{
+	margin-left: 10px;
+}
+
+#descriptionGlob p{
+	margin-left: 10px;
+}
+
+/* - - - - - - - */
+
+#marque img{
+	height: 100px;
+}
+
+#descrip h1{
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+#descrip p{
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+/* - - - - - - Footer - - - - - - */
+
+#footer div{
+	width: 50%;
+	height: 130px;
+	margin-top: 30px;
+}
+
+#footer #loca{
+ width: 100%;
+}
+
+#footer i {
+	height: 20px;
+}
+
+#footer h2{
+	font-size: 18px;
+}
+
+#footer p{
+	font-size: 15px;
+}
+
+
+/* - - - - - - Classement - - - - - - */
+
+#classement h1{
+	font-size: 25px;
+}
+
+#classement img{
+	height: 40px;
+}
+
+#classement #class_1, #class_2, #class_3{
+	height: 80px;
+}
+
+#tableau{
+	height: 450px;
+}
+
+
+/* - - - - - - MVSRDM - - - - - - */
+
+#equipe{
+	height: 400px;
+}
+
+#equipe img {
+    height: 280px;
+    margin-top: 50px;
+    width: 500px;
+}
+
+#descriptionGlob {
+    height: 280px;
+}
+
+#descriptionGlob div {
+    width: 45%;
+}
+
+#coupe img {
+    height: 130px;
+    margin-left: 10px;
+}
+
+#descriptionGlob h2 {
+	font-size: 20px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 707px){
+
+/* - - - - - - Index - - - - - - */
+
+#affiche{
+	height: 800px;
+}
+
+#image{
+	height: 680px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 580px){
+
+#Indication{
+	height: 280px;
+}
+
+#Indication div{
+	width: 40%;
+}
+
+}
+
+@media only screen and (max-width: 420px){
+
+#SondPop {
+    	height: 2400px;
+	}
+}
+
+
+
+
+
